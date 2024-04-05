@@ -1,0 +1,49 @@
+import React from "react";
+
+export default function Patri() {
+  return (
+    <div className="w-screen overflow-x-hidden">
+      <div className="w-fit m-0  p-0 h-44 flex flex-col bg-green-400">
+        <div className="bg-blue-400 h-6 flex flex-row items-center ">
+          {Array.from({ length: 115 }, (_, index) => (
+            <div
+              key={index}
+              style={{
+                width: "10px",
+                height: "10px",
+                backgroundColor: "black",
+                marginRight: "7px",
+              }}
+            ></div>
+          ))}
+        </div>
+        <div className="bg-red-400 h-32 flex flex-row items-center pl-3.5">
+          {Array.from({ length: 15 }, (_, index) => (
+            <div
+              key={index}
+              style={{
+                width: "115px",
+                height: "115px",
+                backgroundColor: "black",
+                marginRight: "15px",
+              }}
+            ></div>
+          ))}
+        </div>
+        <div className="bg-blue-400 h-6 flex flex-row items-center">
+          {Array.from({ length: 115 }, (_, index) => (
+            <div
+              key={index}
+              style={{
+                width: "10px",
+                height: "10px",
+                backgroundColor: "black",
+                marginRight: "7px",
+              }}
+            ></div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+
+.navMenuButton {
+    text-shadow: 0 2px #191919;
+}
+
+.navMenuButton:hover {
+    padding: 0 40px;
+    font-size: 18px;
+    color: #FEA000;
+    transition: 0.3;
+}
+
+@media only screen and (max-width: 950px) {
+    .navBack {
+        width: 1400px;
+    }
+
+    .navMenuList {
+        margin-left: 118px;
+        transform: translate(0, -60px);
+    }
+
+    .navMenuButton {
+        padding: 0 31px;
+    }
+    .navMenuButton:hover {
+    padding: 0 24px;
+    font-size: 18px;
+    color: #ffb534;
+    transition: 0.3;
+}
+
+}
+
+@media only screen and (max-width: 740px) {
+    .navBack {
+        width: 1000px;
+    }
+
+    .navMenuList {
+        margin-left: 114px;
+        transform: translate(-29px, -35px);
+    }
+
+    .navMenuButton {
+        padding: 0 19px;
+        font-size: 14.5px;
+    }
+    .navMenuButton:hover {
+        padding: 0 7px;
+        font-size: 18px;
+        color: #ffb534;
+        transition: 0.3;
+    }
+    
+}
+
+@media only screen and (max-width: 575px) {
+    .navBack {
+        width: 1000px;
+    }
+
+    .navMenuList {
+        margin-left: 0;
+        transform: translate(-10px, -35px);
+    }
+
+    .navMenuButton {
+        font-size: 14px;
+        padding: 0 20.5px;
+    }
+    .navMenuButton:hover {
+        padding: 0 9px;
+        font-size: 18px;
+        color: #ffb534;
+        transition: 0.3;
+    }
+    
+}
+
+@media only screen and (max-width: 410px) {
+    .navBack {
+        width: 865px;
+    }
+
+    .navMenuList {
+        transform: translate(-8px, -27px);
+    }
+
+    .navMenuButton {
+        font-size: 13px;
+        padding: 0 16.5px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .navBack {
+        width: 665px;
+    }
+
+    .navMenuList {
+        transform: translate(0, -16px);
+    }
+
+    .navMenuButton {
+        font-size: 10px;
+        padding: 0 12.5px;
+    }
+}
