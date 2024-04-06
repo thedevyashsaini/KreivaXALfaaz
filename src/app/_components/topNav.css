@@ -10,6 +10,22 @@
     color: #FEA000;
     transition: 0.3;
 }
+.setheight {
+    height: 200vh;
+}
+.custom-scrollbar::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar width */
+  }
+
+  .marginleft {
+    margin-left: 10vw;
+}
+
+@media (min-width: 768px) {
+    .marginleft {
+        margin-left: 27vw;
+    }
+}
 
 @media only screen and (max-width: 950px) {
     .navBack {
