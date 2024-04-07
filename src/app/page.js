@@ -1,14 +1,16 @@
 import Image from "next/image";
 import LandingPage from "./_components/landingPage";
-import Test from "./test";
-// import Patri from "./_components/motivation";
+import PeepShow from "./_components/ui/peepShow";
+import AboutUs from "./_components/AboutUs";
+// import EventPage from "./_components/eventPage";
+
 export default function Home() {
   return (
     <div>
-       <LandingPage /> 
-      <div>
-        hii
-      </div>
+     <LandingPage />
+      <AboutUs /> 
+      {/* <EventPage /> */}
+      {/* <PeepShow /> */}
     </div>
     
   );

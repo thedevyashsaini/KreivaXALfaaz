@@ -3,7 +3,7 @@ import React from "react";
 import { useParallax } from 'react-scroll-parallax';
 import TopNav from "./ui/TopNav";
 import "./landingPage.css";
-import Carousel from "./slider";
+import Carousel from "./ui/slider";
 
 export default function LandingPage() {
    const clouds = useParallax({translateY:['0vh','60vh']});
@@ -49,7 +49,7 @@ export default function LandingPage() {
       {/* <div className="md:hidden  md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
        
       </div> */}
-      <Carousel />
+      <Carousel imageUrls={["a","b","c","d","e","f","g"]} />
 
     </div>
   );

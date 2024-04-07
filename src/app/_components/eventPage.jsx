@@ -3,11 +3,12 @@ import React from "react";
 
 import "./eventPage.css";
 import "./ui/TopNav.css";
+import Carousel from "./ui/slider";
 
 export default function EventPage() {
   return (
     <>
-      <div className="flex flex-col relative overflow-x-hidden custom-scrollbar bg-customBlue" style={{minHeight: "100vh"}}>
+      <div className="flex flex-col relative overflow-x-hidden custom-scrollbar bg-customBlue z-0" style={{minHeight: "100vh"}}>
         <div
           alt="texture"
           className="texture w-full h-full fixed top-0 left-0"
@@ -49,6 +50,7 @@ export default function EventPage() {
           <img src="Group 19.svg" alt="Image 5" className="w-full h-auto" />
           <img src="Group 20.svg" alt="Image 6" className="w-full h-auto" />
         </div>
+        <Carousel imageUrls={["a","b","c","d","e","f"]} cnames={["mt-24"]}/>
       </div>
     </>
   );
