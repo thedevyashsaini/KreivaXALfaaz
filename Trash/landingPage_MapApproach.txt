@@ -1,0 +1,52 @@
+import React from "react";
+
+
+export default function LandingPage() {
+    return (
+        <div className="w-screen position-fixed">
+          <img className="-rotate-3 object-none"  src="Group 61.svg" usemap="#image-map" />
+          <map name="image-map">
+        <area
+          target=""
+          alt=""
+          title=""
+          href="https://one.com"
+          coords="175,36,326,163"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt=""
+          title=""
+          href="https://two.com"
+          coords="338,37,490,165"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt=""
+          title=""
+          href="https://three.com"
+          coords="500,34,652,158"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt=""
+          title=""
+          href="https://four.com"
+          coords="815,158,663,30"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt=""
+          title=""
+          href="https://five.com"
+          coords="831,30,981,159"
+          shape="rect"
+        />
+      </map>
+    </div>
+    )
+}
