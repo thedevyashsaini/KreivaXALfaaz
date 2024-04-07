@@ -48,7 +48,7 @@ export default function LandingPage() {
       </div>
 
       <Image src="/man.svg" width={100} height={100} 
-      className="z-20 w-screen "/>
+      className="z-20 "/>
 
     </div>
   );
