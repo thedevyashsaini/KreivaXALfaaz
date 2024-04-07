@@ -16,6 +16,10 @@ module.exports = {
         '1920': '1920px',
         '150': '150vw',
         '960': '960px',
+        '2/3w': '56vw'
+      },
+      height:{
+        "half-screen" : "96vh",
       },
       margin: {
         '10': '10px',
