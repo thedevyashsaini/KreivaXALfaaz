@@ -4,6 +4,7 @@ import { useParallax } from 'react-scroll-parallax';
 import Image from "next/image";
 import TopNav from "./ui/TopNav";
 import "./landingPage.css";
+import Carousel from "./slider";
 
 export default function LandingPage() {
    const clouds = useParallax({translateY:['0vh','60vh']});
@@ -46,15 +47,10 @@ export default function LandingPage() {
         <div className="artists"></div>
       </div>
 
-      <div className="flex flex-row md:hidden flex-nowrap md:flex-wrap item-center justify-center md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-      </div>
+      {/* <div className="md:hidden  md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
+       
+      </div> */}
+      <Carousel />
 
     </div>
   );

@@ -23,7 +23,9 @@ export default function PeepShow() {
       <img ref={musicbox.ref} src="/PeepShow.svg" alt="music box"
       className={`h-half-screen z-0 ${!display ? "hidden" : ""}`} />
      
-     <LandingPage />
+   <div>hi</div>
+   <div>hi</div>
+   <div>hi</div>
        
     </div>
   )

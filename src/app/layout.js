@@ -1,10 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-<<<<<<< HEAD
 import { Providers } from "./providers";
-=======
-
->>>>>>> master
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -18,11 +14,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-<<<<<<< HEAD
       <body className={inter.className}><Providers>{children}</Providers></body>
-=======
-      <body className={inter.className}>{children}</body>
->>>>>>> master
     </html>
   );
 }
