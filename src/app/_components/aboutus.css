@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+.oldenburg-regular {
+    font-family: "Oldenburg", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aboutus {
+    background: linear-gradient(180deg, #000000, #f59e0b 32%);
+    overflow: hidden;
+}
+
+.rotated-image {
+    transform: rotate(3deg) translateY(-50px) translateX(-4px); 
+    position: relative;
+    top: 2rem;
+}
+
+.googleimg {
+    width: 16rem;
+}
+
+.trumpetimg {
+    position: absolute;
+    top: -2rem;
+    right: -9rem;
+    width: 29rem;
+}
+
+.refreshmentsimg {
+    width: 16rem;
+}
+
+.travelimg {
+    width: 16rem;
+}
+
+.drumsimg {
+    width: 27rem;
+    position: absolute;
+    left: -4rem;
+    top: 37rem;
+}
+
+.pianoimg {
+    position: absolute;
+    top: 32rem;
+    right: -4rem;
+    width: 20rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .trumpetimg {
+        top: -2rem;
+        right: -8rem;
+        width: 25rem;
+    }   
+}
+
+@media only screen and (max-width: 1050px) {
+    .aboutus {
+        background: linear-gradient(180deg, #000000, #f59e0b 25%);
+    }
+
+    .sposnorflex {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
+    .drumsimg {
+        width: 24rem;
+        left: -4rem;
+        top: 50rem;
+    }
+
+    .pianoimg {
+        top: 45rem;
+        right: -4rem;
+        width: 18rem;
+    }
+
+    .aboutustext {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .aboutus {
+        background: linear-gradient(180deg, #000000, #f59e0b 20%);
+    }
+
+    .aboutustext {
+        margin-bottom: 3.8rem;
+    }
+    
+    .drumsimg {
+        width: 24rem;
+        left: -4rem;
+        top: 54rem;
+    }
+
+    .pianoimg {
+        top: 51rem;
+        right: -4rem;
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .aboutus {
+        background: linear-gradient(180deg, #000000, #f59e0b 13%);
+    }
+
+    .trumpetimg {
+        top: -2rem;
+        right: -7rem;
+        width: 22rem;
+    }   
+    
+    .aboutustext {
+        margin-bottom: 2rem;
+    }
+
+    .drumsimg {
+        width: 22rem;
+        left: -4rem;
+        top: 55rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutustext {
+        margin-bottom: 5rem;
+    }
+
+    .drumsimg {
+        width: 22rem;
+        left: -4rem;
+        top: 57.5rem;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .aboutus {
+        background: linear-gradient(180deg, #000000, #f59e0b 11%);
+    }
+
+    .aboutustext {
+        margin-bottom: 5rem;
+    }
+
+    .drumsimg {
+        width: 20rem;
+        left: -4rem;
+        top: 62rem;
+    }
+
+    .pianoimg {
+        top: 56rem;
+        right: -3rem;
+        width: 16rem;
+    }
+
+    .trumpetimg {
+        top: -2rem;
+        right: -7rem;
+        width: 20rem;
+    }  
+}
+
+@media only screen and (max-width: 484px) {
+    .aboutustext {
+        margin-bottom: 4rem;
+    }
+
+    .trumpetimg {
+        top: -2rem;
+        right: -7rem;
+        width: 18rem;
+    } 
+
+    .drumsimg {
+        width: 16rem;
+        left: -4rem;
+        top: 64rem;
+    }
+
+    .pianoimg {
+        top: 59rem;
+        right: -3rem;
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .aboutustext {
+        margin-bottom: 5.5rem;
+    }
+
+    .trumpetimg {
+        top: -2rem;
+        right: -7rem;
+        width: 18rem;
+    } 
+
+    .drumsimg {
+        width: 16rem;
+        left: -4rem;
+        top: 68rem;
+    }
+
+    .pianoimg {
+        top: 62rem;
+        right: -3rem;
+        width: 15rem;
+    }
+}
