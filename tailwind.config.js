@@ -14,6 +14,8 @@ module.exports = {
       },
       width: {
         '1920': '1920px',
+        '150': '150vw',
+        '960': '960px',
       },
       margin: {
         '10': '10px',
@@ -25,6 +27,10 @@ module.exports = {
       },
       translate: {
         '90': '90px',
+      },
+      spacing: {
+        '1200': '12%',
+        '130': '130vh'
       }
     },
   },
