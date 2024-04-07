@@ -1,6 +1,6 @@
 .setheight {
-  height: 200vh;
-  background-image: linear-gradient(180deg, #FF4000 0%, #FF4000 5%, #FF4000 12%, #FEA000 27%, #FEA000 37%, #FEA000 48%, #009199 54%, #009199 77%, #FFE8A5 81%);
+  height: 210vh;
+  background-image: linear-gradient(180deg, #FF4000 0%, #FF4000 5%, #FF4000 12%, #FEA000 27%, #FEA000 37%, #FEA000 48%);
 }
 
 .custom-scrollbar::-webkit-scrollbar {
