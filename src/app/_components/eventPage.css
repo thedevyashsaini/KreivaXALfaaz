@@ -1,0 +1,11 @@
+.texture {
+    background: url("/texture.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px)  {
+    .eventsTopFilm {
+        transform: scaleX(1.5) scaleY(2);
+    }
+}
