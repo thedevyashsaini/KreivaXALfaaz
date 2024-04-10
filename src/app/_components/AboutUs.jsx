@@ -1,12 +1,17 @@
+'use client'
 import './aboutus.css';
+import EventPage from './eventPage';
+import { useParallax } from 'react-scroll-parallax';
 
 export default function AboutUs() {
+
     return (
-        <div className="aboutus absolute min-h-screen max-w-screen-2xl">
+        <>
+        <div className="aboutus relative min-h-screen max-w-screen-2xl overflow-x-hidden">
             <img src="NavbarReel.png" alt="" className="rotated-image" />
             <img src="component5.svg" alt="" className='trumpetimg' />
             <div className="max-w-4xl mx-auto text-orange-900 px-6 aboutustext">
-                <div className="text-6xl font-semibold mb-6">About Us</div>
+                <div className="text-6xl font-semibold mb-6 pageTitle">About Us</div>
                 <div className="grid grid-cols-10 oldenburg-regular sposnorflex">
                     <div className="col-span-6 flex flex-col gap-6 text-md" >
                         <div>
@@ -35,8 +40,11 @@ export default function AboutUs() {
                     </div>
                 </div>
             </div>
-            <img src="drums.svg" alt="" className='drumsimg' />
+            <img src="drums.svg" alt="" className='drumsimg z-50' />
             <img src="piano.svg" alt="" className='pianoimg' />
+            
         </div> 
+        <EventPage />
+        </>
     );    
 }

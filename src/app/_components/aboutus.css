@@ -8,7 +8,8 @@
 
 .aboutus {
     background: linear-gradient(180deg, #000000, #f59e0b 32%);
-    overflow: hidden;
+    padding-bottom: 2rem;
+    /* overflow: hidden; */
 }
 
 .rotated-image {
@@ -90,9 +91,9 @@
         background: linear-gradient(180deg, #000000, #f59e0b 20%);
     }
 
-    .aboutustext {
+    /* .aboutustext {
         margin-bottom: 3.8rem;
-    }
+    } */
     
     .drumsimg {
         width: 24rem;
@@ -118,9 +119,9 @@
         width: 22rem;
     }   
     
-    .aboutustext {
+    /* .aboutustext {
         margin-bottom: 2rem;
-    }
+    } */
 
     .drumsimg {
         width: 22rem;
@@ -130,9 +131,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .aboutustext {
+    /* .aboutustext {
         margin-bottom: 5rem;
-    }
+    } */
 
     .drumsimg {
         width: 22rem;
@@ -146,9 +147,9 @@
         background: linear-gradient(180deg, #000000, #f59e0b 11%);
     }
 
-    .aboutustext {
+    /* .aboutustext {
         margin-bottom: 5rem;
-    }
+    } */
 
     .drumsimg {
         width: 20rem;
@@ -170,9 +171,9 @@
 }
 
 @media only screen and (max-width: 484px) {
-    .aboutustext {
-        margin-bottom: 4rem;
-    }
+    /* .aboutustext {
+        margin-bottom: 4rem; */
+    /* } */
 
     .trumpetimg {
         top: -2rem;
@@ -194,9 +195,9 @@
 }
 
 @media only screen and (max-width: 470px) {
-    .aboutustext {
+    /* .aboutustext {
         margin-bottom: 5.5rem;
-    }
+    } */
 
     .trumpetimg {
         top: -2rem;

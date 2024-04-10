@@ -1,10 +1,9 @@
 'use client'
 import React from "react";
 import { useParallax } from 'react-scroll-parallax';
-import Image from "next/image";
 import TopNav from "./ui/TopNav";
 import "./landingPage.css";
-import Carousel from "./slider";
+import Carousel from "./ui/slider";
 
 export default function LandingPage() {
    const clouds = useParallax({translateY:['0vh','60vh']});
@@ -14,7 +13,7 @@ export default function LandingPage() {
   const man_cropped = useParallax({translateY:['-30vh','88vh']})
 
   return (
-    <div className="flex flex-col setheight relative overflow-x-hidden custom-scrollbar">
+    <div className="flex flex-col setheight relative overflow-x-hidden custom-scrollbar landingBack">
       <TopNav />
        <img src="/topcloud.png" alt="cloud"
          className="w-3/5 md:w-5/12 absolute top-0 right-0 md:right-10 translate-x-24 translate-y-24"/>
@@ -50,7 +49,7 @@ export default function LandingPage() {
       {/* <div className="md:hidden  md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
        
       </div> */}
-      <Carousel />
+      <Carousel imageUrls={["a","b","c","d","e","f","g"]} />
 
     </div>
   );

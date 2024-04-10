@@ -26,6 +26,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Oldenburg', cursive !important;
+}
+
+.pageTitle {
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 @layer utilities {

@@ -21,6 +21,9 @@ module.exports = {
       height:{
         "half-screen" : "96vh",
       },
+      maxWidth: {
+        '960': '960px',
+      },
       margin: {
         '10': '10px',
         '162': '162px',
@@ -36,7 +39,13 @@ module.exports = {
         '1200': '12%',
         '130': '130vh',
         '32':'32vh'
-      }
+      },
+      backgroundColor: {
+        customBlue: '#206569',
+      },
+      colors: {
+        customPeach: '#DAC998',
+      },
     },
   },
   plugins: [],
