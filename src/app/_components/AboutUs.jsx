@@ -8,10 +8,10 @@ export default function AboutUs() {
 
     return (
         <>
-        <div className="aboutus relative min-h-screen custom-scrollbar overflow-x-hidden">
-            <img src="NavbarReel.png" alt="" className="rotated-image" />
-            <img src="component5.svg" alt="" className='trumpetimg' />
-            <div className="max-w-4xl mx-auto text-orange-900 px-6 aboutustext">
+        <div className="aboutus relative min-h-screen custom-scrollbar overflow-x-hidden overflow-y-hidden">
+            <img src="NavbarReel.png" alt="" className="rotated-image z-1" />
+            <img src="component5.svg" alt="" className='trumpetimg z-1' />
+            <div className="max-w-4xl mx-auto text-orange-900 px-6 aboutustext relative z-1">
                 <div className="text-6xl font-semibold mb-6 pageTitle">About Us</div>
                 <div className="grid grid-cols-10 oldenburg-regular sposnorflex">
                     <div className="col-span-6 flex flex-col gap-6 text-md" >
@@ -42,7 +42,7 @@ export default function AboutUs() {
                 </div>
             </div>
             <img src="drums.svg" alt="" className='drumsimg z-50' />
-            <img src="piano.svg" alt="" className='pianoimg' />
+            <img src="piano.svg" alt="" className='pianoimg z-1' />
             
         </div> 
         <EventPage />
