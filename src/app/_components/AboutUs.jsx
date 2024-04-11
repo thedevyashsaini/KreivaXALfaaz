@@ -1,13 +1,14 @@
 'use client'
 import './aboutus.css';
 import EventPage from './eventPage';
+import "./landingPage.css";
 import { useParallax } from 'react-scroll-parallax';
 
 export default function AboutUs() {
 
     return (
         <>
-        <div className="aboutus relative min-h-screen max-w-screen-2xl overflow-x-hidden">
+        <div className="aboutus relative min-h-screen custom-scrollbar overflow-x-hidden">
             <img src="NavbarReel.png" alt="" className="rotated-image" />
             <img src="component5.svg" alt="" className='trumpetimg' />
             <div className="max-w-4xl mx-auto text-orange-900 px-6 aboutustext">

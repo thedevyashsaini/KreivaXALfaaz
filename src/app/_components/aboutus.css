@@ -41,12 +41,12 @@
     width: 27rem;
     position: absolute;
     left: -4rem;
-    top: 37rem;
+    top: 60rem;
 }
 
 .pianoimg {
     position: absolute;
-    top: 32rem;
+    top: 50rem;
     right: -4rem;
     width: 20rem;
 }
@@ -72,7 +72,7 @@
     .drumsimg {
         width: 24rem;
         left: -4rem;
-        top: 50rem;
+        top: 40rem;
     }
 
     .pianoimg {
