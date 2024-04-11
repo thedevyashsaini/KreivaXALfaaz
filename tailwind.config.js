@@ -20,6 +20,7 @@ module.exports = {
       },
       height:{
         "half-screen" : "96vh",
+        "peep" :  "130vh",
         "40": "40rem",
       },
       maxWidth: {
@@ -36,6 +37,7 @@ module.exports = {
       },
       translate: {
         '90': '90px',
+        'peep' : '130%'
       },
       spacing: {
         '1200': '12%',
