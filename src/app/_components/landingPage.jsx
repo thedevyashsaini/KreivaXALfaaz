@@ -6,7 +6,7 @@ import "./landingPage.css";
 import Carousel from "./ui/slider";
 
 export default function LandingPage() {
-   const clouds = useParallax({translateY:['0vh','60vh']});
+  const clouds = useParallax({translateY:['0vh','60vh']});
   const hero = useParallax({translateY:['0vh','-60vh']} );
   const man = useParallax({translateY:['0vh','70vh']});
   const artists = useParallax({translateY:['0vh','-40vh']});

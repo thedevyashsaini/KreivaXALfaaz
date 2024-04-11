@@ -20,6 +20,7 @@ module.exports = {
       },
       height:{
         "half-screen" : "96vh",
+        "40": "40rem",
       },
       maxWidth: {
         '960': '960px',
