@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops)",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
@@ -29,6 +29,7 @@ module.exports = {
         '10': '10px',
         '162': '162px',
         '30': '30px',
+        '40': '20vw'
       },
       padding: {
         '52': '52px',
@@ -47,6 +48,9 @@ module.exports = {
       colors: {
         customPeach: '#DAC998',
       },
+      zIndex: {
+        '1' : '1',
+      }
     },
   },
   plugins: [],

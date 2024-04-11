@@ -24,12 +24,12 @@ export default function LandingPage() {
          className="w-3/5 md:w-5/12 absolute top-80 md:top-60 right-0 md:right-40 translate-x-24 md:translate-x-20" />
       </div>
       
-      <div ref={hero.ref} className="flex flex-col w-9/12 md:w-5/12
-         mx-auto absolute hidden md:flex top-72 left-0 right-0 items-center aspect-square bg-red-400 z-10">
-      </div>
+      <img ref={hero.ref}  src="/hero.gif" alt="kreivaXalfaaz" className="flex flex-col w-12/12 md:w-6/12
+         ml-40 absolute hidden md:flex top-72 left-0 right-0 items-center aspect-square z-10"/>
 
       <div className="flex flex-col w-9/12 md:w-5/12
          mx-auto absolute md:hidden top-72 left-0 right-0 items-center aspect-square bg-red-400 z-10">
+        <img src="/hero.gif" alt="kreivaXalfaaz" />
       </div>
 
      <img ref={man.ref} src="ManTowerSun.svg" alt="manTowerSun" className="man absolute w-screen hidden md:block md:top-1200 top-1/3" />

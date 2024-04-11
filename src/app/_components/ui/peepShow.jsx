@@ -14,19 +14,17 @@ export default function PeepShow() {
     }
   
   },
-  scale:[1,12],
+  scale:[1,2],
   translateY:["0vh","400vh"]}
   )
   return (
-
-    <div className="flex flex-col items-center">
+   <div className="flex flex-col items-center overflow-hidden">
+     <img ref={musicbox.ref} src="/light_d.svg" alt="lights" />
       <img ref={musicbox.ref} src="/PeepShow.svg" alt="music box"
-      className={`h-half-screen z-0 ${!display ? "hidden" : ""}`} />
-     
-   <div>hi</div>
-   <div>hi</div>
-   <div>hi</div>
-       
-    </div>
+      className={`z-0 ${!display ? "hidden" : ""}`} />
+      <div>hi</div>
+      <div>hi</div>
+      <div>hi</div>
+   </div>
   )
 }

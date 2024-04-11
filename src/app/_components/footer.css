@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: visible;
+}
+.body-footer{
+    padding-top:120px;
+    height: 510px;
+    width: 100%;
+    background:#FFE8A5;
+    background-size:max(120vw , 1436px);
+    font-family: "OFL Sorts Mill Goudy TT";
+}
+.display-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bg-container{
+    width: max(120vw , 1536px);
+}
+
+@media only screen and (max-width: 480px) {
+    .phone-baseline{
+        align-items: baseline;
+    }
+    .phone-align-center{
+        align-items: center;
+    }
+    .phone-text-left {
+        text-align: left;
+    }
+    .phone-flex-col {
+        flex-direction: column;
+    }
+    .phone-flex-row {
+        flex-direction: row;
+    }
+    .phone-p-2 {
+        padding: 0.5rem;
+    }
+    .phone-pr-7{
+        padding-left: 1.75rem;
+    }
+    .phone-gap-2 {
+        gap: 0.3rem;
+    }
+    .phone-gap-3 {
+        gap: 0.5rem;
+    }
+    .phone-max-w{
+        max-width: 270px;
+    }
+    .phone-max-w2{
+        max-width: 310px;
+    }
+    .phone-leading-7 {
+        line-height: 1.75rem;
+    }
+    
+    /* font-size */
+    .ph-text-xs {
+        font-size: 0.45rem;
+    }
+    .ph-text-sm {
+        font-size: 0.6rem;
+    }
+    .ph-text-base {
+        font-size: 0.75rem;
+    }
+    .ph-text-lg {
+        font-size: 1.0rem;
+    }
+    .ph-text-xl {
+        font-size: 1.125rem;
+    }
+    .ph-text-2xl {
+        font-size: 1.25rem;
+    }
+    .ph-text-3xl {
+        font-size: 1.5rem;
+    }
+    .ph-text-4xl {
+        font-size: 2.875rem;
+    }
+    .ph-text-5xl {
+        font-size: 3.75rem;
+    }
+    .ph-text-6xl {
+        font-size: 4.5rem;
+    }
+}
+@media only screen and (max-width: 282px) {
+    * {
+        font-size: 4.8vw;
+    }
+    .exs-p-2{
+        padding: 0.5rem;
+    }
+}

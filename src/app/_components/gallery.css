@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: visible;
+} 
+.body-gallery{
+    height: calc(100vh + 460px);
+    width: 100%;
+    background: #FFE8A5;
+    color:#ffff;
+    font-family: "OFL Sorts Mill Goudy TT";
+}
+.gallery-display::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-corner{
+    background-color: transparent;
+}
+.gallery-display::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+.gallery-display:hover::-webkit-scrollbar-thumb {
+    background-color: #00000010;
+}
+.gallery-card{
+    width: 100vw;
+    max-width:240px;
+    height: 100vw;
+    max-height: 240px;
+    background: #000;
+    border-width: 20px 20px 40px 20px;
+    border-style: solid;
+    border-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.max-h-3xl{
+    max-height: 42rem;
+}
+/* element */
+.music-element{
+    top:calc(15vw - 100px);
+    left: min(1380px , 85vw);
+    width: 26vw;
+    height: 26vw;
+    max-width:260px;
+    max-height:260px;
+}
+.gitar-element{
+    top: calc(200px + 18vw);
+    right: min(1280px , 74vw);
+    width: 46vw;
+    height: 46vw;
+    max-width:500px;
+    max-height:500px;
+}
+.baloon-element{
+    top: 600px;
+    left: min(1200px , 70vw);
+    width: 65vw;
+    height: 65vw;
+    max-width:600px;
+    max-height:600px;
+}
+@media only screen and (max-width: 1251px) {
+    .music-element{
+        left: min(1200px , 87vw);
+    }
+    .gitar-element{
+        top: calc(1000px - 40vw);
+    }
+
+}
+@media only screen and (max-width: 882px) {
+    .-ms-translate-y-6 {
+        -ms-transform: translateY(0.75rem);
+        transform: translateY(0.75rem);
+    }
+    .-md-translate-y-7 {
+        translate: 0 1.75rem;
+    }
+    .-md-translate-y-8 {
+        translate: 0 2rem;
+    }
+    /* elements */
+    .music-element{
+        rotate: 13deg;
+        top:20px;
+        left: min(570px , 80vw);
+        min-width:150px;
+        min-height:150px;
+    }
+    .gitar-element{
+        top: calc(950px - 45vw);
+        right: min(560px , 74vw);
+        min-width:320px;
+        min-height:320px;
+    }
+    .baloon-element{
+        top: 480px;
+        rotate: 10deg;
+        left: min(480px , 80vw);
+        min-width:490px;
+        min-height:490px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .music-element{
+        top:10px;
+        left: min(310px , 80vw);
+    }
+    .gitar-element{
+        top: 600px;
+        right: min(230px , 74vw);
+    }
+    .baloon-element{
+        top: 705px;
+        rotate: 0deg;
+        left: min(160px , 80vw);
+    }
+}
