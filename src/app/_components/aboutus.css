@@ -53,7 +53,7 @@
 
 .aboutustext {
     transform: scale(1.3);
-    margin-top: 3rem;
+    margin-top: -8rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -65,7 +65,7 @@
 
     .aboutustext {
         transform: scale(1);
-        margin-top: auto;
+        margin-top: -10rem;
     }
     
 }
@@ -93,7 +93,7 @@
     }
 
     .aboutustext {
-        margin-top: 2rem;
+        margin-top: -5rem;
     }
 }
 
@@ -109,11 +109,11 @@
     .drumsimg {
         width: 24rem;
         left: -4rem;
-        top: 54rem;
+        top: 50rem;
     }
 
     .pianoimg {
-        top: 51rem;
+        top: 45rem;
         right: -4rem;
         width: 18rem;
     }
@@ -137,7 +137,10 @@
     .drumsimg {
         width: 22rem;
         left: -4rem;
-        top: 55rem;
+        top: 50rem;
+    }
+    .pianoimg {
+        top: 45rem;
     }
 }
 
@@ -165,11 +168,11 @@
     .drumsimg {
         width: 20rem;
         left: -4rem;
-        top: 62rem;
+        top: 51rem;
     }
 
     .pianoimg {
-        top: 56rem;
+        top: 45rem;
         right: -3rem;
         width: 16rem;
     }
@@ -179,30 +182,6 @@
         right: -7rem;
         width: 20rem;
     }  
-}
-
-@media only screen and (max-width: 484px) {
-    /* .aboutustext {
-        margin-bottom: 4rem; */
-    /* } */
-
-    .trumpetimg {
-        top: -2rem;
-        right: -7rem;
-        width: 18rem;
-    } 
-
-    .drumsimg {
-        width: 16rem;
-        left: -4rem;
-        top: 64rem;
-    }
-
-    .pianoimg {
-        top: 59rem;
-        right: -3rem;
-        width: 15rem;
-    }
 }
 
 @media only screen and (max-width: 470px) {
@@ -219,11 +198,11 @@
     .drumsimg {
         width: 16rem;
         left: -4rem;
-        top: 68rem;
+        top: 50rem;
     }
 
     .pianoimg {
-        top: 62rem;
+        top: 45rem;
         right: -3rem;
         width: 15rem;
     }

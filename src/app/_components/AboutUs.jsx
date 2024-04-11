@@ -9,11 +9,18 @@ export default function AboutUs() {
     return (
         <>
         <div className="aboutus relative min-h-screen custom-scrollbar overflow-x-hidden overflow-y-hidden">
-            <img src="NavbarReel.png" alt="" className="rotated-image z-1" />
-            <img src="component5.svg" alt="" className='trumpetimg z-1' />
+        <header className="mix-blend-multiply relative z-10">
+          <div className="nav w-1920" style={{ transform: "translate(0, -70px) rotate(-4.5deg)" }}>
+            <img
+              className="navBack object-left w-full object-cover h-auto"
+              src="EventTopFilm.svg"
+            />
+          </div>
+        </header>
+            <img src="component5.svg" alt="" className='trumpetimg z-10' />
             <div className="max-w-4xl mx-auto text-orange-900 px-6 aboutustext relative z-1">
                 <div className="text-6xl font-semibold mb-6 pageTitle">About Us</div>
-                <div className="grid grid-cols-10 oldenburg-regular sposnorflex">
+                <div className="grid grid-cols-1 oldenburg-regular sposnorflex">
                     <div className="col-span-6 flex flex-col gap-6 text-md" >
                         <div>
                             Kreiva is the annual cultural festival of Indian Institute of Information Technology, Vadodara. Kreiva serves as a platform for students to show their talents in performing arts and aesthetic arts, where students can collaborate and team up with other students to bring out the best in them.
@@ -23,20 +30,6 @@ export default function AboutUs() {
                         </div>
                         <div>
                             Join us to celebrate creativity, join us, to celebrate Kreiva!
-                        </div>
-                    </div>
-                    <div className="col-span-4 flex flex-col items-center text-center gap-3">
-                        <div>
-                            <div className='text-4xl font-semibold'>Title Sponsor</div>
-                            <img src="google.svg" alt="" className='googleimg' />
-                        </div>
-                        <div className='mb-4'>
-                            <div className='text-lg'>Refreshment Partner</div>
-                            <img src="RefreshmentPartners.svg" alt="" className='refreshmentsimg' />
-                        </div>
-                        <div>
-                            <div className='text-lg'>Travel Partner</div>
-                            <img src="travelpartner.svg" alt="" className='travelimg' />
                         </div>
                     </div>
                 </div>

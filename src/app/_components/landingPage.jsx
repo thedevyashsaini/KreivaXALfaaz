@@ -28,7 +28,7 @@ export default function LandingPage() {
          ml-40 absolute hidden md:flex top-72 left-0 right-0 items-center aspect-square z-10"/>
 
       <div className="flex flex-col w-9/12 md:w-5/12
-         mx-auto absolute md:hidden top-72 left-0 right-0 items-center aspect-square bg-red-400 z-10">
+         mx-auto absolute md:hidden top-72 left-0 right-0 items-center aspect-square z-10">
         <img src="/hero.gif" alt="kreivaXalfaaz" />
       </div>
 
