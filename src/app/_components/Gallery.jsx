@@ -1,8 +1,27 @@
+'use client'
 import './gallery.css';
 import Footer from './Footer.jsx'
 import Image from 'next/image'
-
+import Plx from "react-plx";
 export default function Gallery() {
+    const exampleParallaxData = [
+        {
+          start:"self",
+          duration:600,
+          properties: [
+            {
+              startValue: -300,
+              endValue: 350,
+              property: "translateY"
+            },
+            {
+                startValue: 0,
+                endValue: -30,
+                property: "rotate",
+              }
+          ]
+        },
+      ]
     return (
         <>
             <div className="body-gallery flex items-center phone-baseline relative flex-col overflow-hidden">
@@ -34,12 +53,14 @@ export default function Gallery() {
                     height = {180}
                     alt="music"
                 />
-                <Image className="gitar-element absolute z-30"
+                <Plx parallaxData={exampleParallaxData} className="gitar-element absolute z-30">
+                  <Image 
                     src="/gitar-fL.svg"
                     width = {340}
                     height = {340}
                     alt="gitar"
                 />
+                </Plx>
                 <Image className="baloon-element absolute z-30"
                     src="/gitar-baloon-fR.svg"
                     width = {310}
