@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oldenburg&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@keyframes move-up-down {
+    from {translate: 0 calc(100vh - 870px + 20px)}
+    50% {translate: 0 calc(100vh - 870px )}
+    to {translate: 0 calc(100vh - 870px + 20px)}
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +17,7 @@
     background: #FFE8A5;
     color:#ffff;
     font-family: "OFL Sorts Mill Goudy TT";
+    z-index: -1;
 }
 .gallery-display::-webkit-scrollbar {
     background-color: transparent;
@@ -42,6 +49,9 @@
 .max-h-3xl{
     max-height: 42rem;
 }
+.hv-58{
+    height: calc( 92vh - 10rem);
+}
 /* element */
 .music-element{
     top:calc(15vw - 100px);
@@ -52,6 +62,7 @@
     max-height:260px;
 }
 .gitar-element{
+    translate: 0 calc(100vh - 870px);
     top: calc(200px + 18vw);
     right: min(1280px , 74vw);
     width: 46vw;
@@ -66,6 +77,7 @@
     height: 65vw;
     max-width:600px;
     max-height:600px;
+    animation: move-up-down 2s infinite ease-in-out;
 }
 @media only screen and (max-width: 1251px) {
     .music-element{

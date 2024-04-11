@@ -31,11 +31,11 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="footer-bg-container display-center phone-align-center absolute top-10 -z-10 mix-blend-multiply">
+                <div className="footer-bg-container display-center phone-align-center absolute top-0 -z-10 mix-blend-multiply">
                     <Image className=""
                         src="./footer-bg.svg"
-                        width = {1920}
-                        height = {1920}
+                        width = {2320}
+                        height = {2320}
                         alt="loading please wait..."
                     />
                 </div>
