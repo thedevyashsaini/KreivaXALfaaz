@@ -16,11 +16,12 @@ module.exports = {
         '1920': '1920px',
         '150': '150vw',
         '960': '960px',
-        '2/3w': '56vw'
+        '2/3w': '56vw',
+        '780' : '780px'
       },
       height:{
         "half-screen" : "96vh",
-        "peep" :  "130vh",
+        "peep" :  "180vh",
         "40": "40rem",
       },
       maxWidth: {
@@ -37,7 +38,7 @@ module.exports = {
       },
       translate: {
         '90': '90px',
-        'peep' : '130%'
+        'peep' : '110%'
       },
       spacing: {
         '1200': '12%',

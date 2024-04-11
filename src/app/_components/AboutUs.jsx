@@ -2,9 +2,23 @@
 import './aboutus.css';
 import EventPage from './eventPage';
 import "./landingPage.css";
+import Plx from "react-plx";
 import { useParallax } from 'react-scroll-parallax';
 
 export default function AboutUs() {
+    const exampleParallaxData = [
+        {
+          start:"self",
+          duration:600,
+          properties: [
+            {
+              startValue: 0.5,
+              endValue: 1.5,
+              property: "scale"
+            }
+          ]
+        },
+      ]
 
     return (
         <>
@@ -17,7 +31,7 @@ export default function AboutUs() {
             />
           </div>
         </header>
-            <img src="component5.svg" alt="" className='trumpetimg z-10' />
+            <Plx className='trumpetimg z-10' parallaxData={exampleParallaxData}><img src="component5.svg" alt="" className='' /></Plx>
             <div className="max-w-4xl mx-auto text-orange-900 px-6 aboutustext relative z-1">
                 <div className="text-6xl font-semibold mb-6 pageTitle">About Us</div>
                 <div className="grid grid-cols-1 oldenburg-regular sposnorflex">
