@@ -1,11 +1,39 @@
 "use client";
 import React from "react";
-
+import Plx from "react-plx";
 import "./eventPage.css";
 import "./ui/TopNav.css";
 import Carousel from "./ui/slider";
 
 export default function EventPage() {
+  const fluteParallaxData = [
+    {
+      start:"self",
+      duration:600,
+      properties: [
+        {
+          startValue: 0,
+          endValue: -90,
+          property: "rotate"
+        }
+      ]
+    },
+]
+
+const fluteParallaxDataPC = [
+  {
+    start:"self",
+    duration:2000,
+    properties: [
+      {
+        startValue: 0,
+        endValue: 100,
+        unit:"vh",
+        property: "translateY"
+      }
+    ]
+  },
+]
   return (
     <>
       <div className="flex flex-col relative overflow-x-hidden custom-scrollbar bg-customBlue z-0" style={{minHeight: "100vh"}}>
@@ -51,9 +79,13 @@ export default function EventPage() {
           <img src="Group 20.svg" alt="Image 6" className="w-full h-auto" />
         </div>
         <Carousel imageUrls={["a","b","c","d","e","f"]} cnames={["mt-24 z-1"]}/>
-        <div className="w-full absolute bottom-0 z-10">
+        <Plx parallaxData={fluteParallaxData} className="w-full absolute bottom-0  z-10">
+          <img src="pipudi.svg" alt="pipudi" className="h-96 md:h-40 md:hidden"/>
+        </Plx>
+
+        <Plx parallaxData={fluteParallaxDataPC} className="w-full absolute left-0 top-400 hidden md:block z-10">
           <img src="pipudi.svg" alt="pipudi" className="h-96 md:h-40"/>
-        </div>
+        </Plx>
         
       </div>
     </>

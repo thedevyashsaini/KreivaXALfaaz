@@ -3,6 +3,7 @@ import React from "react";
 import { useParallax } from 'react-scroll-parallax';
 import TopNav from "./ui/TopNav";
 import "./landingPage.css";
+
 import Carousel from "./ui/slider";
 
 export default function LandingPage() {
@@ -24,8 +25,8 @@ export default function LandingPage() {
          className="w-3/5 md:w-5/12 absolute top-80 md:top-60 right-0 md:right-40 translate-x-24 md:translate-x-20" />
       </div>
       
-      <img ref={hero.ref}  src="/hero.gif" alt="kreivaXalfaaz" className="flex flex-col w-12/12 md:w-6/12
-         ml-40 absolute hidden md:flex top-72 left-0 right-0 items-center aspect-square z-10"/>
+      <img ref={hero.ref}  src="/hero.gif" alt="kreivaXalfaaz" className="flex flex-col w-11/12 md:w-6/12
+         md:ml-40 absolute hidden md:flex top-72 left-0 right-0 items-center aspect-square z-10"/>
 
       <div className="flex flex-col w-9/12 md:w-5/12
          mx-auto absolute md:hidden top-72 left-0 right-0 items-center aspect-square z-10">
@@ -46,9 +47,9 @@ export default function LandingPage() {
         <div className="artists"></div>
       </div>
 
-      {/* <div className="md:hidden  md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
-       
-      </div> */}
+{/* <div className="md:hidden  md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
+
+</div> */}
       <Carousel imageUrls={["a","b","c","d","e","f","g"]} />
 
     </div>

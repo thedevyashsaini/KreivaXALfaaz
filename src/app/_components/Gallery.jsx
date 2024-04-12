@@ -22,6 +22,20 @@ export default function Gallery() {
           ]
         },
       ]
+
+      const musicParallaxData = [
+        {
+          start:"self",
+          duration:800,
+          properties: [
+            {
+                startValue: -120,
+                endValue: 0,
+                property: "rotateY",
+              }
+          ]
+        },
+      ]
     return (
         <>
             <div className="body-gallery flex items-center phone-baseline relative flex-col overflow-hidden">
@@ -47,12 +61,16 @@ export default function Gallery() {
                     </div>
                 </div>
                 <Footer />
-                <Image className="music-element absolute -rotate-6 z-30"
+                <Plx parallaxData={musicParallaxData} className="music-element absolute -rotate-6 z-30" >
+                  <Image 
                     src="/music-gR.svg"
                     width = {180}
                     height = {180}
                     alt="music"
-                />
+                  />
+
+                </Plx>
+                
                 <Plx parallaxData={exampleParallaxData} className="gitar-element absolute z-30">
                   <Image 
                     src="/gitar-fL.svg"
