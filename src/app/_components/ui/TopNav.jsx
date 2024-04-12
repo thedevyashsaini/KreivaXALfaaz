@@ -30,19 +30,19 @@ export default function TopNav() {
               href="fa"
               className="navMenuButton navMenuButton text-white no-underline duration-300 text-lg px-52"
             >
-              Sponsor
+              Team
             </a>
             <a
               href="fa"
               className="navMenuButton navMenuButton text-white no-underline duration-300 text-lg px-52"
             >
-              Loda
+              Merch
             </a>
             <a
               href="fa"
               className="navMenuButton navMenuButton text-white no-underline duration-300 text-lg px-52"
             >
-              Lassun
+              Tickets
             </a>
           </ul>
         </div>
