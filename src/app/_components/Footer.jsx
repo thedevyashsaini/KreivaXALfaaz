@@ -38,6 +38,11 @@ export default function Footer() {
                         height = {2320}
                         alt="loading please wait..."
                     />
+                <div
+                    alt="texture"
+                    className="texture absolute bottom-0 -z-10 mix-blend-multiply"
+                    style={{width: "100%", height: "100%"}}
+                />
                 </div>
             </div>
         </>

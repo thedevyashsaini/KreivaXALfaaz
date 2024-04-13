@@ -18,13 +18,25 @@ export default function Gallery() {
                 startValue: 0,
                 endValue: -30,
                 property: "rotate",
-              }
-          ]
-        },
-      ]
+            }
+        ]
+    },
+]
     return (
         <>
+                {/* <header className="mix-blend-multiply absolute">
+                    <div className="nav w-1920" style={{ transform: "translate(0, -100px) rotate(-4.5deg)",border:"red 1px solid" }}>
+                        <img
+                        className="navBack object-left w-full object-cover h-auto"
+                        src="EventTopFilm.svg"
+                        />
+                    </div>
+                </header> */}
             <div className="body-gallery flex items-center phone-baseline relative flex-col overflow-hidden">
+                <div
+                    alt="texture"
+                    className="texture h-full w-full absolute top-0 left-0 z-10 mix-blend-multiply"
+                />
                 <h1 className="text-red-700 text-8xl py-8 px-10 ph-text-5xl tracking-tighter translate-y-14 -ms-translate-y-60 relative z-40">Gallery</h1>
                 <div className="gallery-display flex flex-wrap justify-center max-w-5xl hv-58 max-h-3xl py-10 gap-20 overflow-scroll scroll-smooth border-red relative z-30">
                     <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">

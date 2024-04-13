@@ -54,8 +54,15 @@ export default function EventPage() {
         <div className="w-full absolute bottom-0 z-10">
           <img src="pipudi.svg" alt="pipudi" className="h-96 md:h-40"/>
         </div>
-        
       </div>
+      <header className="h-64 overflow-hidden" style={{backgroundImage: "linear-gradient(#206569 25%, #FFE8A5 50%)"}}>
+        <div className="nav w-1920 mix-blend-multiply" style={{ transform: "translate(0, 0) rotate(-4.5deg)" }}>
+          <img
+            className="navBack object-left w-full object-cover h-auto"
+            src="EventTopFilm.svg"
+          />
+        </div>
+      </header>
     </>
   );
 }
