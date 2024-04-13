@@ -21,7 +21,6 @@
 .footer-bg-container{
     width: max(120vw , 1536px);
 }
-
 @media only screen and (max-width: 480px) {
     .phone-baseline{
         align-items: baseline;
