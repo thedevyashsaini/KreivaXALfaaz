@@ -33,6 +33,9 @@ module.exports = {
         '30': '30px',
         '40': '20vw'
       },
+      border:{
+        '20':'20px'
+      },
       padding: {
         '52': '52px',
       },

@@ -71,7 +71,7 @@ export default function Gallery() {
 
                 </Plx>
                 
-                <Plx parallaxData={exampleParallaxData} className="gitar-element absolute z-30">
+                <Plx parallaxData={exampleParallaxData} className="gitar-element absolute z-30 ml-24 hidden md:block">
                   <Image 
                     src="/gitar-fL.svg"
                     width = {340}
