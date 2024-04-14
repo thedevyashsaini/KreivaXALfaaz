@@ -3,6 +3,8 @@ import './gallery.css';
 import Footer from './Footer.jsx'
 import Image from 'next/image'
 import Plx from "react-plx";
+import Test from './ui/tryingout'
+
 export default function Gallery() {
     const exampleParallaxData = [
         {
@@ -18,7 +20,6 @@ export default function Gallery() {
                 startValue: 0,
                 endValue: -30,
                 property: "rotate",
-<<<<<<< HEAD
               }
           ]
         },
@@ -37,12 +38,6 @@ export default function Gallery() {
           ]
         },
       ]
-=======
-            }
-        ]
-    },
-]
->>>>>>> 8a39bb30aafd17d1be6f29f765c237e1586eb2bc
     return (
         <>
                 {/* <header className="mix-blend-multiply absolute">
@@ -59,24 +54,25 @@ export default function Gallery() {
                     className="texture h-full w-full absolute top-0 left-0 z-10 mix-blend-multiply"
                 />
                 <h1 className="text-red-700 text-8xl py-8 px-10 ph-text-5xl tracking-tighter translate-y-14 -ms-translate-y-60 relative z-40">Gallery</h1>
-                <div className="gallery-display flex flex-wrap justify-center max-w-5xl hv-58 max-h-3xl py-10 gap-20 overflow-scroll scroll-smooth border-red relative z-30">
+                <div className="gallery-display flex flex-wrap justify-center max-w-5xl hv-58 max-h-3xl py-10 pt-24 mt-4 gap-20 overflow-scroll scroll-smooth border-red relative z-30">
                     <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
-                        <img src="#" alt="random"/>
+                    <Test />
                     </div>
                     <div className="gallery-card rotate-2">
-                        <img src="#" alt="random"/>
+                        {/* <img src="#" alt="random"/> */}
+                        <Test />
                     </div>
                     <div className="gallery-card -translate-y-8 -md-translate-y-8 rotate-2">
-                        <img src="#" alt="random"/>
+                    <Test />
                     </div>
                     <div className="gallery-card -translate-y-7 -md-translate-y-7 rotate-7">
-                        <img src="#" alt="random"/>
+                    <Test />
                     </div>
                     <div className="gallery-card rotate-3">
-                        <img src="#" alt="random"/>
+                    <Test />
                     </div>
                     <div className="gallery-card -translate-y-8 -md-translate-y-8 -rotate-6">
-                        <img src="#" alt="random"/>
+                        <Test />
                     </div>
                 </div>
                 <Footer />
