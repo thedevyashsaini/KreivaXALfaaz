@@ -11,6 +11,7 @@ export default function LandingPage() {
   const hero = useParallax({translateY:['0vh','-60vh']} );
   const man = useParallax({translateY:['0vh','70vh']});
   const artists = useParallax({translateY:['0vh','-40vh']});
+ // const artist = useParallax({speed:50})
   const man_cropped = useParallax({translateY:['-30vh','88vh']})
 
   return (
@@ -28,29 +29,28 @@ export default function LandingPage() {
       <img ref={hero.ref}  src="/hero.gif" alt="kreivaXalfaaz" className="flex flex-col w-11/12 md:w-6/12
          md:ml-40 absolute hidden md:flex top-72 left-0 right-0 items-center aspect-square z-10"/>
 
-      <div className="flex flex-col w-9/12 md:w-6/12
-         mx-auto absolute md:hidden top-72 left-0 right-0 items-center aspect-square z-10">
+      <div className="flex flex-col w-9/12 md:w-9/12
+         mx-auto absolute md:hidden top-72 left-0 right-0 items-center z-10">
         <img src="/hero.gif" alt="kreivaXalfaaz" />
       </div>
 
      <img ref={man.ref} src="ManTowerSun.svg" alt="manTowerSun" className="man absolute w-screen hidden md:block md:top-1200 top-1/3 z-1" />
      <img ref={man_cropped.ref}  src="ManTowerSun_Cropped.svg" alt="manTowerSun" className="absolute w-screen md:hidden top-32 md:top-0 z-1" />
-       
+      <h1 className="z-50 text-white text-center py-4 text-4xl font-bold ">Our Arstists</h1>
       <div ref={artists.ref} className="flex flex-row flex-nowrap 
-      hidden md:flex md:flex-wrap item-center justify-center md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
-        <div className="artists"></div>
+      hidden md:flex md:flex-wrap item-center justify-center md:w-960 mx-auto z-20 absolute left-0 right-0 top-130" style={{maxWidth: "900px"}}>
+        
+        <div className="artists"><img src="/artist1.png" alt="artst" /></div>
+        <div className="artists"><img src="/artist2.jpeg" alt="artst" /></div>
+        <div className="artists"><img src="/artist3.jpeg" alt="artst" /></div><br/>
+        <div className="artists"><img src="/artist4.jpg" alt="artst" /></div>
+        <div className="artists"><img src="/artist5.jpg" alt="artst" /></div>
       </div>
 
 {/* <div className="md:hidden  md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
 
 </div> */}
-      <Carousel imageUrls={["a","b","c","d","e","f","g"]} />
+      <Carousel imageUrls={["/artist1.png","/artist2.jpeg","/artist3.jpeg","/artist4.jpg","/artist5.jpg","f","g"]} />
 
     </div>
   );

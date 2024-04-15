@@ -9,3 +9,9 @@
         transform: scaleX(1.5) scaleY(2);
     }
 }
+.gallery-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}

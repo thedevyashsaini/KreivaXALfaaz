@@ -5,7 +5,7 @@ import React from "react";
 import "../landingPage.css";
 import { CardBody, CardContainer, CardItem } from "./3d-card";
 
-export default function ThreeDCardDemo() {
+export default function ThreeDCardDemo({imgSrc}) {
   return (
     <CardContainer className="inter-var">
       <CardBody className=" relative w-auto sm:w-[30rem] h-auto p-6">
@@ -14,7 +14,7 @@ export default function ThreeDCardDemo() {
           className="imgBack w-full mt-4"
         >
           <img
-            src="/099370123bdcf71e3a5cada2152fbab3.jpeg"
+            src={imgSrc}
             className="h-60 w-full object-contain group-hover/card:shadow-xl"
             alt="thumbnail"
           />

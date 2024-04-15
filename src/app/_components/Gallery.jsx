@@ -3,6 +3,7 @@ import './gallery.css';
 import Footer from './Footer.jsx'
 import Image from 'next/image'
 import Plx from "react-plx";
+import ThreeDCardDemo from './ui/tryingout';
 import Test from './ui/tryingout'
 
 export default function Gallery() {
@@ -56,23 +57,22 @@ export default function Gallery() {
                 <h1 className="text-red-700 text-8xl py-8 px-10 ph-text-5xl tracking-tighter translate-y-14 -ms-translate-y-60 relative z-40">Gallery</h1>
                 <div className="gallery-display flex flex-wrap justify-center max-w-5xl hv-58 max-h-3xl py-10 pt-24 mt-4 gap-20 overflow-scroll scroll-smooth border-red relative z-30">
                     <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
-                    <Test />
+                      <ThreeDCardDemo imgSrc="/9D6A7098.JPG" />
                     </div>
                     <div className="gallery-card rotate-2">
-                        {/* <img src="#" alt="random"/> */}
-                        <Test />
+                      <ThreeDCardDemo imgSrc="/DSC_5066.JPG" />
                     </div>
                     <div className="gallery-card -translate-y-8 -md-translate-y-8 rotate-2">
-                    <Test />
+                      <ThreeDCardDemo imgSrc="/KLK03178.JPG" />
                     </div>
                     <div className="gallery-card -translate-y-7 -md-translate-y-7 rotate-7">
-                    <Test />
+                      <ThreeDCardDemo imgSrc="/IMG_1967.JPG" />
                     </div>
                     <div className="gallery-card rotate-3">
-                    <Test />
+                      <ThreeDCardDemo imgSrc="/9D6A7200.JPG" />
                     </div>
                     <div className="gallery-card -translate-y-8 -md-translate-y-8 -rotate-6">
-                        <Test />
+                      <Test imgSrc="/9D6A7180.JPG" />
                     </div>
                 </div>
                 <Footer />

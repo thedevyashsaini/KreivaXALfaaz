@@ -3,6 +3,8 @@ import React from "react";
 import Plx from "react-plx";
 import "./eventPage.css";
 import "./ui/TopNav.css";
+import './gallery.css';
+import ThreeDCardDemo from './ui/tryingout';
 import Carousel from "./ui/slider";
 
 export default function EventPage() {

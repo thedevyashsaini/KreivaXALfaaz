@@ -3,7 +3,7 @@ import "./TopNav.css";
 
 export default function TopNav() {
   return (
-    <header id="header" className="mix-blend-multiply z-1">
+    <header id="header" className="z-1">
       <div className="nav mix-blend-normal w-1920">
         <img
           className="navBack object-left w-full object-cover h-auto"
