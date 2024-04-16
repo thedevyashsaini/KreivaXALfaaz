@@ -50,7 +50,7 @@ export default function LandingPage() {
 {/* <div className="md:hidden  md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
 
 </div> */}
-      <Carousel imageUrls={["/artist1.png","/artist2.jpeg","/artist3.jpeg","/artist4.jpg","/artist5.jpg","f","g"]} />
+      <Carousel imageUrls={["/artist1.png","/artist2.jpeg","/artist3.jpeg","/artist4.JPG","/artist5.jpg"]} />
 
     </div>
   );

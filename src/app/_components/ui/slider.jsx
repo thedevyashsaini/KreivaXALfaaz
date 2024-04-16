@@ -22,7 +22,7 @@ function Carousel({ imageUrls, cnames }) {
     center: true,
     responsiveClass: true,
     nav: false,
-    dotsEach: 1,
+    dotsEach: 3,
     autoplay: true,
     responsive: {
       0: {

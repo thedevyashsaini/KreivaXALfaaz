@@ -8,6 +8,8 @@
   padding: 1rem;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
  }
 
 .landingBack {
