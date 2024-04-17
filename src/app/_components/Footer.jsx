@@ -33,7 +33,7 @@ export default function Footer() {
                         <div className="display-center">
                             <div className="pr-7 phone-pr-7 exs-p-2">Links</div>
                             <div className="flex justify-center flex-col phone-flex-row text-base ph-text-base gap-4 phone-gap-3">
-                                <a href="" goto="galleryPage" onClick={onBtnClick}>Gallery</a><a href="" goto="eventPage" onClick={onBtnClick}>Events</a><a href="">Team</a><a href="">Merch</a><a href="https://ticket-system-steakfisher.vercel.app/" target="_blank">Tickets</a>
+                                <a href="" goto="galleryPage" onClick={onBtnClick}>Gallery</a><a href="" goto="eventPage" onClick={onBtnClick}>Events</a><a href="">Team</a><a href="">Merch</a><a href="https://tickets.kreiva-x-alfaaz.co/" target="_blank">Tickets</a>
                             </div>
                         </div>
                         <div className="display-center phone-baseline">

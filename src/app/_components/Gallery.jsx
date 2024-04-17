@@ -4,7 +4,6 @@ import Footer from './Footer.jsx'
 import Image from 'next/image'
 import Plx from "react-plx";
 import ThreeDCardDemo from './ui/tryingout';
-import Test from './ui/tryingout'
 
 export default function Gallery() {
     const exampleParallaxData = [
@@ -68,7 +67,25 @@ export default function Gallery() {
                       <ThreeDCardDemo imgSrc="/kreiva5.JPG" />
                     </div>
                     <div className="gallery-card -translate-y-8 -md-translate-y-8 -rotate-6">
-                      <Test imgSrc="/kreiva6.JPG" />
+                      <ThreeDCardDemo imgSrc="/kreiva6.JPG" />
+                    </div>
+                    <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
+                      <ThreeDCardDemo imgSrc="/gallery1.jpg" />
+                    </div>
+                    <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
+                      <ThreeDCardDemo imgSrc="/gallery2.jpg" />
+                    </div>
+                    <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
+                      <ThreeDCardDemo imgSrc="/gallery3.jpg" />
+                    </div>
+                    <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
+                      <ThreeDCardDemo imgSrc="/gallery4.jpg" />
+                    </div>
+                    <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
+                      <ThreeDCardDemo imgSrc="/gallery5.jpg" />
+                    </div>
+                    <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
+                      <ThreeDCardDemo imgSrc="/gallery6.jpg" />
                     </div>
                 </div>
                 <Footer />

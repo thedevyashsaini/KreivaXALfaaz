@@ -29,8 +29,8 @@ export default function LandingPage() {
       <img ref={hero.ref}  src="/hero.gif" alt="kreivaXalfaaz" className="flex flex-col w-11/12 md:w-6/12
          md:ml-40 absolute hidden md:flex top-72 left-0 right-0 items-center aspect-square z-10" style={{"pointer-events": "none"}}/>
 
-      <div className="flex flex-col w-9/12 md:w-9/12
-         mx-auto absolute md:hidden top-72 left-0 right-0 items-center z-10" style={{"pointer-events": "none"}}>
+      <div className="flex flex-col w-full md:w-9/12
+         mx-auto absolute md:hidden top-72 left-0 right-0 items-center z-10" style={{"pointer-events": "none", "margin-left": "-2rem"}}>
         <img src="/hero.gif" alt="kreivaXalfaaz" />
       </div>
 

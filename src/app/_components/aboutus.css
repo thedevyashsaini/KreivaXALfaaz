@@ -56,7 +56,7 @@
     margin-top: -8rem;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 3000px) {
     .trumpetimg {
         top: -2rem;
         right: -8rem;
@@ -64,40 +64,23 @@
     }   
 
     .aboutustext {
-        transform: scale(1);
         margin-top: -10rem;
+    }
+    .drumsimg {
+        width: 24rem;
+        left: -4rem;
+        top: 46rem;
+    }
+
+    .pianoimg {
+        top: 43rem;
+        right: -4rem;
+        width: 18rem;
     }
     
 }
 
 @media only screen and (max-width: 1050px) {
-    .aboutus {
-        background: linear-gradient(180deg, #000000, #f59e0b 25%);
-    }
-
-    .sposnorflex {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3rem;
-    }
-
-    .drumsimg {
-        width: 24rem;
-        left: -4rem;
-        top: 40rem;
-    }
-
-    .pianoimg {
-        top: 45rem;
-        right: -4rem;
-        width: 18rem;
-    }
-
-    .aboutustext {
-        margin-top: -5rem;
-    }
-}
-
-@media only screen and (max-width: 900px) {
     .aboutus {
         background: linear-gradient(180deg, #000000, #f59e0b 20%);
     }
@@ -116,6 +99,11 @@
         top: 45rem;
         right: -4rem;
         width: 18rem;
+    }
+
+    .aboutustext {
+        margin-top: -5rem;
+        transform: scale(1);
     }
 }
 
@@ -144,19 +132,19 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    /* .aboutustext {
+/* @media only screen and (max-width: 600px) {
+    .aboutustext {
         margin-bottom: 5rem;
-    } */
+    }
 
     .drumsimg {
         width: 22rem;
         left: -4rem;
         top: 57.5rem;
     }
-}
+} */
 
-@media only screen and (max-width: 565px) {
+@media only screen and (max-width: 600px) {
     .aboutus {
         background: linear-gradient(180deg, #000000, #f59e0b 11%);
     }
