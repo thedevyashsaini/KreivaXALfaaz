@@ -36,7 +36,7 @@ export default function LandingPage() {
 
      <img ref={man.ref} src="ManTowerSun.svg" alt="manTowerSun" className="man absolute w-screen hidden md:block md:top-1200 top-1/3 z-1" />
      <img ref={man_cropped.ref}  src="ManTowerSun_Cropped.svg" alt="manTowerSun" className="absolute w-screen md:hidden top-32 md:top-0 z-1" />
-      <h1 className="z-50 text-white text-center py-4 text-4xl font-bold ">Our Arstists</h1>
+      <h1 className="z-50 text-white text-center py-4 text-4xl font-bold block md:hidden">Our Arstists</h1>
       <div ref={artists.ref} className="flex flex-row flex-nowrap 
       hidden md:flex md:flex-wrap item-center justify-center md:w-960 mx-auto z-20 absolute left-0 right-0 top-130" style={{maxWidth: "900px"}}>
         

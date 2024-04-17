@@ -58,8 +58,9 @@ export default function TopNav() {
               Merch
             </a>
             <a
-              href="fa"
+              href="https://ticket-system-steakfisher.vercel.app/"
               className="navMenuButton navMenuButton text-white no-underline duration-300 text-lg px-52"
+              target="_blank"
             >
               Tickets
             </a>

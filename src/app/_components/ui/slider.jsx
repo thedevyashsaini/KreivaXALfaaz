@@ -43,7 +43,6 @@ function Carousel({ imageUrls, cnames }) {
           </div>
         ))}
       </OwlCarousel>
-      ;
     </div>
   );
 }

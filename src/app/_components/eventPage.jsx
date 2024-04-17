@@ -39,10 +39,10 @@ const fluteParallaxDataPC = [
   return (
     <>
       <div className="flex flex-col relative overflow-hidden custom-scrollbar bg-customBlue z-0" style={{minHeight: "100vh"}} id="eventPage">
-        <div
+        {/* <div
           alt="texture"
           className="texture w-full h-full fixed top-0 left-0"
-        />
+        /> */}
         <header className="mix-blend-multiply">
           <div className="nav w-1920" style={{ transform: "translate(0, -70px) rotate(-4.5deg)" }}>
             <img
@@ -54,23 +54,13 @@ const fluteParallaxDataPC = [
         <div className="flex flex-col text-customPeach w-full px-12 md:px-28 -mt-24 md:-mt-48 text-lg md:text-xl z-1">
           <h1 className="text-6xl md:text-8xl pageTitle mb-4">Events</h1>
           <p>
-            Kreiva is the annual cultural festival of Indian Institute of
-            Information Technology, Vadodara. Kreiva serves as a platform for
-            students to show their talents in performing arts and aesthetic
-            arts, where students can collaborate and team up with other students
-            to bring out the best in them.The Annual Cultural Festival of IIIT
-            Vadodara gets its name from the Esperanto word "Kreiva", meaning
-            "Creativity".
+            
+            Join us at Kreiva-X-Alfaax, a vibrant celebration of culture and literature! Immerse yourself in a whirlwind of creativity and expression as we showcase the best of artistic talent. From strokes of brushes to captivating poetry readings, there's something for everyone. Don't miss out on the diverse range of activities organized by our clubs: Mod5, Shades, Obscura, Pensieve, Encore, Masquerade, Editorial. Mark your calendars for an unforgettable experience!
           </p>
           <br />
           <p>
-            Since its inception in 2016 as an intra-institute fest in 2016, it
-            has consistently been a huge platform for individuals to showcase
-            their talents. A spectacular extravaganza, Kreiva is home to
-            expression through art, music, drama, dance and culture.
+            Here's the complete list of our events: Flashmob, Nukkad, Jamming, Nrityangana - Duet Dance Competition, Kirdaar - Duo act, Numaish - Nukkad natak, Cinemaghar - Stage play, Crescendo - Solo Music Competition, Nrityangana - Solo Dance Competition, Music Performance, Disney Delight - Art Competition, Pixel Palooza, Pixise - Photography Competition, Open Mic, Kavita Sangram - Poetry Competition.
           </p>
-          <br />
-          <p>Join us to celebrate creativity, join us, to celebrate Kreiva!</p>
         </div>
         <div className="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 z-1 md:gap-20 md:max-w-full gap-4 mx-auto w-3/4 max-w-960 mt-28 hidden md:grid">
           <img src="event1.png" alt="Image 1" className="w-full h-auto" />
