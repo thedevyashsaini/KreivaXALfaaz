@@ -54,25 +54,25 @@ export default function Gallery() {
                     alt="texture"
                     className="texture h-full w-full absolute top-0 left-0 z-10 mix-blend-multiply"
                 />
-                <h1 className="text-red-700 text-8xl py-8 px-10 ph-text-5xl tracking-tighter translate-y-14 -ms-translate-y-60 relative z-40">Gallery</h1>
+                <h1 className="text-red-700 -mt-8 mb-8 md:mt-auto md:mb-auto text-8xl py-8 px-10 ph-text-5xl tracking-tighter translate-y-14 -ms-translate-y-60 relative z-40">Gallery</h1>
                 <div className="gallery-display flex flex-wrap justify-center max-w-5xl hv-58 max-h-3xl py-10 pt-24 mt-4 gap-20 overflow-scroll scroll-smooth border-red relative z-30">
                     <div className="gallery-card -translate-y-7 -md-translate-y-7 -rotate-2">
-                      <ThreeDCardDemo imgSrc="/9D6A7098.JPG" />
+                      <ThreeDCardDemo imgSrc="/kreiva1.JPG" />
                     </div>
                     <div className="gallery-card rotate-2">
-                      <ThreeDCardDemo imgSrc="/DSC_5066.JPG" />
+                      <ThreeDCardDemo imgSrc="/kreiva2.JPG" />
                     </div>
                     <div className="gallery-card -translate-y-8 -md-translate-y-8 rotate-2">
-                      <ThreeDCardDemo imgSrc="/KLK03178.JPG" />
+                      <ThreeDCardDemo imgSrc="/kreiva3.JPG" />
                     </div>
                     <div className="gallery-card -translate-y-7 -md-translate-y-7 rotate-7">
-                      <ThreeDCardDemo imgSrc="/IMG_1967.JPG" />
+                      <ThreeDCardDemo imgSrc="/kreiva4.JPG" />
                     </div>
                     <div className="gallery-card rotate-3">
-                      <ThreeDCardDemo imgSrc="/9D6A7200.JPG" />
+                      <ThreeDCardDemo imgSrc="/kreiva5.JPG" />
                     </div>
                     <div className="gallery-card -translate-y-8 -md-translate-y-8 -rotate-6">
-                      <Test imgSrc="/9D6A7180.JPG" />
+                      <Test imgSrc="/kreiva6.JPG" />
                     </div>
                 </div>
                 <Footer />

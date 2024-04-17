@@ -73,19 +73,19 @@ const fluteParallaxDataPC = [
           <p>Join us to celebrate creativity, join us, to celebrate Kreiva!</p>
         </div>
         <div className="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 z-1 md:gap-20 md:max-w-full gap-4 mx-auto w-3/4 max-w-960 mt-28 hidden md:grid">
-          <img src="Group 15.svg" alt="Image 1" className="w-full h-auto" />
-          <img src="Group 16.svg" alt="Image 2" className="w-full h-auto" />
-          <img src="Group 17.svg" alt="Image 3" className="w-full h-auto" />
-          <img src="Group 18.svg" alt="Image 4" className="w-full h-auto" />
-          <img src="Group 19.svg" alt="Image 5" className="w-full h-auto" />
-          <img src="Group 20.svg" alt="Image 6" className="w-full h-auto" />
+          <img src="event1.png" alt="Image 1" className="w-full h-auto" />
+          <img src="event2.png" alt="Image 2" className="w-full h-auto" />
+          <img src="event3.png" alt="Image 3" className="w-full h-auto" />
+          <img src="event4.png" alt="Image 4" className="w-full h-auto" />
+          <img src="event5.png" alt="Image 5" className="w-full h-auto" />
+          <img src="event6.png" alt="Image 6" className="w-full h-auto" />
         </div>
-        <Carousel imageUrls={["a","b","c","d","e","f"]} cnames={["mt-24 z-1"]}/>
-        <Plx parallaxData={fluteParallaxData} className="w-full absolute bottom-0  z-10">
-          <img src="pipudi.svg" alt="pipudi" className="h-96 md:h-40 md:hidden"/>
+        <Carousel imageUrls={["event1.png","event2.png","event3.png","event4.png","event5.png","event6.png",]} cnames={["mt-24 z-1"]}/>
+        <Plx parallaxData={fluteParallaxData} className="w-full absolute bottom-0 pipudi z-10">
+          <img src="pipudi.svg" alt="pipudi" className="h-96 md:h-40 md:hidden mb-12"/>
         </Plx>
 
-        <Plx parallaxData={fluteParallaxDataPC} className="w-full absolute left-0 top-400 hidden md:block z-10">
+        <Plx parallaxData={fluteParallaxDataPC} className="w-full absolute left-0 top-400 pipudi hidden md:block z-10">
           <img src="pipudi.svg" alt="pipudi" className="h-96 md:h-40"/>
         </Plx>
         

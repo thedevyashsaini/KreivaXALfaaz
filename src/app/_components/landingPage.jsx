@@ -43,7 +43,7 @@ export default function LandingPage() {
         <div className="artists"><img src="/artist1.png" alt="artst" /></div>
         <div className="artists"><img src="/artist2.jpeg" alt="artst" /></div>
         <div className="artists"><img src="/artist3.jpeg" alt="artst" /></div><br/>
-        <div className="artists"><img src="/artist4.jpg" alt="artst" /></div>
+        <div className="artists"><img src="/artist4.JPG" alt="artst" /></div>
         <div className="artists"><img src="/artist5.jpg" alt="artst" /></div>
       </div>
 

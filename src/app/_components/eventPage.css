@@ -15,3 +15,7 @@
     align-items: center;
     background-color: white;
 }
+
+.pipudi {
+    pointer-events: none;
+}
