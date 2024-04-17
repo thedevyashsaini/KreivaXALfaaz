@@ -38,7 +38,7 @@ const fluteParallaxDataPC = [
 ]
   return (
     <>
-      <div className="flex flex-col relative overflow-x-hidden custom-scrollbar bg-customBlue z-0" style={{minHeight: "100vh"}}>
+      <div className="flex flex-col relative overflow-hidden custom-scrollbar bg-customBlue z-0" style={{minHeight: "100vh"}} id="eventPage">
         <div
           alt="texture"
           className="texture w-full h-full fixed top-0 left-0"

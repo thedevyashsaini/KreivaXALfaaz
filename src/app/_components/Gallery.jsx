@@ -49,7 +49,7 @@ export default function Gallery() {
                         />
                     </div>
                 </header> */}
-            <div className="body-gallery flex items-center phone-baseline relative flex-col overflow-hidden">
+            <div className="body-gallery flex items-center phone-baseline relative flex-col overflow-hidden" id="galleryPage">
                 <div
                     alt="texture"
                     className="texture h-full w-full absolute top-0 left-0 z-10 mix-blend-multiply"
