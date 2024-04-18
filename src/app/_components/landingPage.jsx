@@ -40,11 +40,11 @@ export default function LandingPage() {
       <div ref={artists.ref} className="flex flex-row flex-nowrap 
       hidden md:flex md:flex-wrap item-center justify-center md:w-960 mx-auto z-20 absolute left-0 right-0 top-130" style={{maxWidth: "900px"}}>
         
-        <div className="artists"><img src="/artist1.png" alt="artst" /></div>
-        <div className="artists"><img src="/artist2.jpeg" alt="artst" /></div>
-        <div className="artists"><img src="/artist3.jpeg" alt="artst" /></div><br/>
-        <div className="artists"><img src="/artist4.JPG" alt="artst" /></div>
-        <div className="artists"><img src="/artist5.jpg" alt="artst" /></div>
+        <div className="artists"><Image width={200} height={200} src="/artist1.png" alt="artst" /></div>
+        <div className="artists"><Image width={200} height={200} src="/artist2.jpeg" alt="artst" /></div>
+        <div className="artists"><Image width={200} height={200} src="/artist3.jpeg" alt="artst" /></div><br/>
+        <div className="artists"><Image width={200} height={200} src="/artist4.JPG" alt="artst" /></div>
+        <div className="artists"><Image width={200} height={200} src="/artist5.jpg" alt="artst" /></div>
       </div>
 
 {/* <div className="md:hidden  md:w-960 mx-auto z-20 absolute left-0 right-0 top-130">
