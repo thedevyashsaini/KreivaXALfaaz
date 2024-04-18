@@ -1,5 +1,6 @@
 import React from "react";
 import "./TopNav.css";
+import Image from 'next/image'
 
 export default function TopNav() {
   const scroll2El = (elID) => {
@@ -20,9 +21,13 @@ export default function TopNav() {
   return (
     <header id="header" className="z-10">
       <div className="nav mix-blend-normal w-1920">
-        <img
+        <Image
+          priority={true}
+          width={1920}
+          height={1080}
           className="navBack object-left w-full object-cover h-auto"
-          src="NavbarReel.png"
+          src="/NavbarReel.png"
+          alt={"navbar"}
         />
         <div
           className="navMenu flex justify-start absolute -rotate-3 -mt-10"
