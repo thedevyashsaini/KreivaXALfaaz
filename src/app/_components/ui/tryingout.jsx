@@ -13,8 +13,10 @@ export default function ThreeDCardDemo({imgSrc}) {
           translateZ="100"
           className="imgBack w-full mt-4"
         >
-          <img
+          <Image
             src={imgSrc}
+            height={200}
+            width={200}
             className="h-60 w-full object-contain group-hover/card:shadow-xl"
             alt="thumbnail"
           />
