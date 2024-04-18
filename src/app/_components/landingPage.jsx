@@ -3,6 +3,7 @@ import React from "react";
 import { useParallax } from 'react-scroll-parallax';
 import TopNav from "./ui/TopNav";
 import "./landingPage.css";
+import Image from 'next/image'
 
 import Carousel from "./ui/slider";
 
