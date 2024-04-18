@@ -19,18 +19,18 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest"></link>
 
-        <meta property="og:url" content="https://www.kreiva-x-alfaaz.co/">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Kreiva X Alfaaz">
-        <meta property="og:description" content="">
-        <meta property="og:image" content="https://i.imgur.com/hqLwAqY.png">
+        <meta property="og:url" content="https://www.kreiva-x-alfaaz.co/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Kreiva X Alfaaz"/>
+        <meta property="og:description" content=""/>
+        <meta property="og:image" content="https://i.imgur.com/hqLwAqY.png"/>
 
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="kreiva-x-alfaaz.co">
-        <meta property="twitter:url" content="https://www.kreiva-x-alfaaz.co/">
-        <meta name="twitter:title" content="Kreiva X Alfaaz">
-        <meta name="twitter:description" content="">
-        <meta name="twitter:image" content="https://i.imgur.com/hqLwAqY.png">
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:domain" content="kreiva-x-alfaaz.co"/>
+        <meta property="twitter:url" content="https://www.kreiva-x-alfaaz.co/"/>
+        <meta name="twitter:title" content="Kreiva X Alfaaz"/>
+        <meta name="twitter:description" content=""/>
+        <meta name="twitter:image" content="https://i.imgur.com/hqLwAqY.png"/>
 
       </head>
       <body className={inter.className}><Providers>{children}</Providers></body>
