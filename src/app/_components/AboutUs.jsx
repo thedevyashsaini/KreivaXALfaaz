@@ -64,7 +64,7 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="aboutus relative min-h-screen custom-scrollbar overflow-x-hidden overflow-y-hidden">
+      <div className="aboutus relative min-h-screen custom-scrollbar overflow-x-hidden overflow-y-hidden md:min-h-69">
         <header className="mix-blend-multiply relative z-10">
           <div
             className="nav w-1920"
@@ -111,11 +111,11 @@ export default function AboutUs() {
           </div>
         </div>
         <Plx className="drumsimg z-50" parallaxData={tablaParallaxtaData}>
-          <img width={300} height={300} src={drums} alt="" />
+          <Image width={1920} height={1080} src={"/drums.svg"} alt="drums" />
         </Plx>
         <Plx parallaxData={pianoParallaxData} className="pianoimg z-1">
           {" "}
-          <img width={300} height={300} src={piano} alt="" />
+          <Image width={1000} height={1000} src={"/piano.svg"}  alt="piano" />
         </Plx>
       </div>
       <EventPage />

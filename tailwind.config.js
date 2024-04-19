@@ -17,15 +17,18 @@ module.exports = {
         '150': '150vw',
         '960': '960px',
         '2/3w': '56vw',
-        '780' : '780px'
+        '780' : '780px',
       },
       height:{
         "half-screen" : "96vh",
         "peep" :  "180vh",
-        "40": "40rem",
+        "40": "40rem"
       },
       maxWidth: {
         '960': '960px',
+      },
+      minHeight: {
+      "69": "60rem",
       },
       margin: {
         '10': '10px',

@@ -43,7 +43,7 @@ export default function LandingPage() {
          md:ml-40 absolute hidden md:flex top-72 left-0 right-0 items-center aspect-square z-10" style={{"pointer-events": "none"}}/>
 
       <div className="flex flex-col w-full md:w-9/12
-         mx-auto absolute md:hidden top-72 left-0 right-0 items-center z-10" style={{"pointer-events": "none", "margin-left": "-2rem"}}>
+         mx-auto absolute md:hidden top-72 left-0 right-0 items-center z-10" style={{"pointerEvents": "none", "marginLeft": "-2rem"}}>
         <Image priority={true} height={400} width={400} src="/hero.gif" alt="kreivaXalfaaz" />
       </div>
       <Image priority={true} width={100} height={100} ref={man.ref} src={manTowerSun} alt="manTowerSun" className="man absolute w-screen hidden md:block md:top-1200 top-1/3 z-1" />
