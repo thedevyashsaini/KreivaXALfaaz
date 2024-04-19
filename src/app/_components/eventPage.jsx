@@ -85,14 +85,15 @@ const fluteParallaxDataPC = [
         <Carousel imageUrls={["event1.jpg","event2.jpg","event3.jpg","event4.jpg","event5.jpg","event6.jpg",]} cnames={["mt-24 z-1"]}/>
         <Plx parallaxData={fluteParallaxData} className="w-full absolute bottom-0 pipudi z-10">
           <Image
-            width={300}
-            height={300} src={pipudi} alt="pipudi" className="h-96 md:h-40 md:hidden mb-12"/>
+            width={100}
+            height={500}
+             src={"/pipudi.svg"} alt="pipudi" className="h-96 md:h-40 md:hidden mb-12"/>
         </Plx>
 
         <Plx parallaxData={fluteParallaxDataPC} className="w-full absolute left-0 top-400 pipudi hidden md:block z-10">
           <Image
-            width={300}
-            height={300} src={pipudi} alt="pipudi" className="h-96 md:h-40"/>
+            width={100}
+            height={1080} src={pipudi} alt="pipudi" className="h-96 md:h-40"/>
         </Plx>
         
       </div>
