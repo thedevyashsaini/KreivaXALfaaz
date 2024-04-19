@@ -3,7 +3,11 @@ import "./aboutus.css";
 import EventPage from "./eventPage";
 import "./landingPage.css";
 import Plx from "react-plx";
-import { useParallax } from "react-scroll-parallax";
+import Image from 'next/image'
+import EventTopFilm from "../../../public/EventTopFilm.svg"
+import comp5 from "../../../public/component5.svg"
+import drums from "../../../public/drums.svg"
+import piano from "../../../public/piano.svg"
 
 export default function AboutUs() {
   const trumpetParallaxData = [
@@ -66,14 +70,17 @@ export default function AboutUs() {
             className="nav w-1920"
             style={{ transform: "translate(0, -70px) rotate(-4.5deg)" }}
           >
-            <img
+            <Image
+              height={1080}
+              width={1920}
               className="navBack object-left w-full object-cover h-auto"
-              src="EventTopFilm.svg"
+              src={EventTopFilm}
+              alt={"Top film"}
             />
           </div>
         </header>
         <Plx className="trumpetimg z-10" parallaxData={trumpetParallaxData}>
-          <img src="component5.svg" alt="" className="" />
+          <Image height={300} width={300} src={comp5} alt="" className="" />
         </Plx>
         <div className="max-w-4xl mx-auto text-orange-900 px-6 aboutustext relative z-1">
           <div className="text-6xl font-semibold mb-6 pageTitle">About Us</div>
@@ -104,11 +111,11 @@ export default function AboutUs() {
           </div>
         </div>
         <Plx className="drumsimg z-50" parallaxData={tablaParallaxtaData}>
-          <img src="drums.svg" alt="" />
+          <img width={300} height={300} src={drums} alt="" />
         </Plx>
         <Plx parallaxData={pianoParallaxData} className="pianoimg z-1">
           {" "}
-          <img src="piano.svg" alt="" />
+          <img width={300} height={300} src={piano} alt="" />
         </Plx>
       </div>
       <EventPage />
