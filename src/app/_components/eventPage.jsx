@@ -4,8 +4,18 @@ import Plx from "react-plx";
 import "./eventPage.css";
 import "./ui/TopNav.css";
 import './gallery.css';
-import ThreeDCardDemo from './ui/tryingout';
 import Carousel from "./ui/slider";
+import Image from 'next/image'
+import eventTopFilm from "../../../public/EventTopFilm.svg";
+import event1 from "../../../public/event1.jpg";
+import event2 from "../../../public/event2.jpg";
+import event3 from "../../../public/event3.jpg";
+import event4 from "../../../public/event4.jpg";
+import event5 from "../../../public/event5.jpg";
+import event6 from "../../../public/event6.jpg";
+import pipudi from "../../../public/pipudi.svg";
+
+
 
 export default function EventPage() {
   const fluteParallaxData = [
@@ -45,10 +55,12 @@ const fluteParallaxDataPC = [
         /> */}
         <header className="mix-blend-multiply">
           <div className="nav w-1920" style={{ transform: "translate(0, -70px) rotate(-4.5deg)" }}>
-            <img
+            <Image
+              width={1920}
+              height={1080}
               className="navBack object-left w-full object-cover h-auto"
-              src="EventTopFilm.svg"
-            />
+              src={eventTopFilm}
+             alt={"Top film"}/>
           </div>
         </header>
         <div className="flex flex-col text-customPeach w-full px-12 md:px-28 -mt-24 md:-mt-48 text-lg md:text-xl z-1">
@@ -63,28 +75,35 @@ const fluteParallaxDataPC = [
           </p>
         </div>
         <div className="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 z-1 md:gap-20 md:max-w-full gap-4 mx-auto w-3/4 max-w-960 mt-28 hidden md:grid">
-          <img src="event1.png" alt="Image 1" className="w-full h-auto" />
-          <img src="event2.png" alt="Image 2" className="w-full h-auto" />
-          <img src="event3.png" alt="Image 3" className="w-full h-auto" />
-          <img src="event4.png" alt="Image 4" className="w-full h-auto" />
-          <img src="event5.png" alt="Image 5" className="w-full h-auto" />
-          <img src="event6.png" alt="Image 6" className="w-full h-auto" />
+          <Image width={200} height={200} src={event1} alt="Image 1" className="w-full h-auto" />
+          <Image width={200} height={200} src={event2} alt="Image 2" className="w-full h-auto" />
+          <Image width={200} height={200} src={event3} alt="Image 3" className="w-full h-auto" />
+          <Image width={200} height={200} src={event4} alt="Image 4" className="w-full h-auto" />
+          <Image width={200} height={200} src={event5} alt="Image 5" className="w-full h-auto" />
+          <Image width={200} height={200} src={event6} alt="Image 6" className="w-full h-auto" />
         </div>
-        <Carousel imageUrls={["event1.png","event2.png","event3.png","event4.png","event5.png","event6.png",]} cnames={["mt-24 z-1"]}/>
+        <Carousel imageUrls={["event1.jpg","event2.jpg","event3.jpg","event4.jpg","event5.jpg","event6.jpg",]} cnames={["mt-24 z-1"]}/>
         <Plx parallaxData={fluteParallaxData} className="w-full absolute bottom-0 pipudi z-10">
-          <img src="pipudi.svg" alt="pipudi" className="h-96 md:h-40 md:hidden mb-12"/>
+          <Image
+            width={300}
+            height={300} src={pipudi} alt="pipudi" className="h-96 md:h-40 md:hidden mb-12"/>
         </Plx>
 
         <Plx parallaxData={fluteParallaxDataPC} className="w-full absolute left-0 top-400 pipudi hidden md:block z-10">
-          <img src="pipudi.svg" alt="pipudi" className="h-96 md:h-40"/>
+          <Image
+            width={300}
+            height={300} src={pipudi} alt="pipudi" className="h-96 md:h-40"/>
         </Plx>
         
       </div>
       <header className="h-64 overflow-hidden" style={{backgroundImage: "linear-gradient(#206569 25%, #FFE8A5 50%)"}}>
         <div className="nav w-1920 mix-blend-multiply" style={{ transform: "translate(0, 0) rotate(-4.5deg)" }}>
-          <img
+          <Image
+            width={300}
+            height={300}
             className="navBack object-left w-full object-cover h-auto"
-            src="EventTopFilm.svg"
+            src={eventTopFilm}
+            alt={"Top film"}
           />
         </div>
       </header>
