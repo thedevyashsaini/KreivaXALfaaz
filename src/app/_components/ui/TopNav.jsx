@@ -1,6 +1,7 @@
 import React from "react";
 import "./TopNav.css";
 import Image from 'next/image'
+import Link from "next/link";
 
 export default function TopNav() {
   const scroll2El = (elID) => {
@@ -56,12 +57,12 @@ export default function TopNav() {
             >
               Team
             </a>
-            <a
-              href="fa"
+            <Link
+              href="/merch"
               className="navMenuButton navMenuButton text-white no-underline duration-300 text-lg px-52"
             >
               Merch
-            </a>
+            </Link>
             <a
               href="https://tickets.kreiva-x-alfaaz.co/"
               className="navMenuButton navMenuButton text-white no-underline duration-300 text-lg px-52"
